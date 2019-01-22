@@ -263,7 +263,7 @@ PathEntity.prototype.startPath = function startPath() {
 
 
 function Plane(game, spritesheet, x, y, path, delay) {
-  this.animation = new Animation(spritesheet, 300, 330, 8, 0.10, 1, true, 0.25, 0.15);
+  this.animation = new Animation(spritesheet, 300, 330, 8, 0.10, 3, true, 0.25, 0.15);
   this.ctx = game.ctx;
   this.speed = 100;
   this.pathCopy = path.slice();
